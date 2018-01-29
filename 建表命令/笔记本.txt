@@ -1,0 +1,15 @@
+create table NoteGroups
+(
+	GroupID int constraint NTG_PK primary key,
+	GroupName varchar(30) not null constraint NTGN_UQ unique,
+	GroupOrder int not null
+)
+create table Notes
+(
+	NoteID int constraint NT_PK primary key,
+	GroupID int not null,
+	Title varchar(30) not null constraint NTT_UQ unique,
+	Content memo not null,
+	TimeOfRevision datetime not null
+)
+alter table Notes add constraint NT_FK foreign key(GroupID) references NoteGroups(GroupID)

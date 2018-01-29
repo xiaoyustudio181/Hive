@@ -1,0 +1,9 @@
+create table Anniversaries
+(
+	ID int constraint ANN_PK primary key,
+	Title varchar(50) not null constraint ANN_UQ unique,
+	YearN  smallint not null,
+	MonthN smallint not null,
+	DayN smallint not null,
+	ValidYear bit not null
+)

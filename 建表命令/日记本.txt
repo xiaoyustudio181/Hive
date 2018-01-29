@@ -1,0 +1,14 @@
+create table DiaryGroups
+(
+	GroupID int constraint DG_PK primary key,
+	GroupName varchar(30) not null constraint DGN_UQ unique,
+	GroupOrder int not null
+)
+create table DiaryRecords
+(
+	RecordID int constraint DR_PK primary key,
+	GroupID int not null,
+	DateOfRecord datetime not null,
+	Content memo not null
+)
+alter table DiaryRecords add constraint DR_FK foreign key(GroupID) references DiaryGroups(GroupID)

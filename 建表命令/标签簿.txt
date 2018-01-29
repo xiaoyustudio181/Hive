@@ -1,0 +1,23 @@
+create table LabelLocations
+(
+	LocationID int constraint LBL_PK primary key,
+	LocationName varchar(30) not null constraint LBLN_UQ unique,
+	LocationOrder int not null
+)
+create table LabelGroups
+(
+	GroupID int constraint LBG_PK primary key,
+	LocationID int not null,
+	GroupName varchar(30) not null constraint LBG_UQ unique,
+	GroupOrder int not null
+)
+create table Labels
+(
+	LabelID int constraint LB_PK primary key,
+	GroupID int not null,
+	LabelName varchar(50) not null constraint LB_UQ unique,
+	Path varchar(200) not null,
+	LabelOrder int not null
+)
+alter table LabelGroups add constraint LBG_FK foreign key(LocationID) references LabelLocations(LocationID)
+alter table Labels add constraint LB_FK foreign key(GroupID) references LabelGroups(GroupID)

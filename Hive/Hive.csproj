@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{62C2F69D-4185-469F-B6A4-7AE9A3ED099C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hive</RootNamespace>
+    <AssemblyName>Hive</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CentralControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CentralControl.Designer.cs">
+      <DependentUpon>CentralControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maintenance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maintenance.Designer.cs">
+      <DependentUpon>Maintenance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SelectDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectDB.Designer.cs">
+      <DependentUpon>SelectDB.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CentralControl.resx">
+      <DependentUpon>CentralControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maintenance.resx">
+      <DependentUpon>Maintenance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SelectDB.resx">
+      <DependentUpon>SelectDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Anniversaries\Anniversaries.csproj">
+      <Project>{96566f92-a25e-450d-89fd-054e1b9e75cf}</Project>
+      <Name>Anniversaries</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Diary\Diary.csproj">
+      <Project>{587237ba-59ab-4d7c-8bc9-5d7a895986ed}</Project>
+      <Name>Diary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ElectronicWatch\ElectronicWatch.csproj">
+      <Project>{65726f46-2843-4bb6-8f0b-501401652726}</Project>
+      <Name>ElectronicWatch</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FastCmd\FastCmd.csproj">
+      <Project>{66d65c8c-fce0-4577-ba9d-dbfd8add318f}</Project>
+      <Name>FastCmd</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Labels\Labels.csproj">
+      <Project>{f6859d5c-d768-4d19-99ed-1cd83ae5d218}</Project>
+      <Name>Labels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyFrame\MyFrame.csproj">
+      <Project>{c974360b-73a4-469b-b39a-b81a24b82177}</Project>
+      <Name>MyFrame</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Notebook\Notebook.csproj">
+      <Project>{3cbe2682-6fb2-4621-9aa3-bd929b46c5ac}</Project>
+      <Name>Notebook</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Pack\Pack.csproj">
+      <Project>{ce2552ea-865e-4350-ba4c-a3a440698661}</Project>
+      <Name>Pack</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Reader\Reader.csproj">
+      <Project>{25ba4412-c9f1-429f-9ff5-abb984aa706b}</Project>
+      <Name>Reader</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TouchTypist\TouchTypist.csproj">
+      <Project>{c15c7603-7e89-435a-b3de-5d37adb82ead}</Project>
+      <Name>TouchTypist</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wpf.jpg" />
+    <None Include="Resources\winform2.jpg" />
+    <None Include="Resources\winform.jpg" />
+    <None Include="Resources\windows.jpg" />
+    <None Include="Resources\win.jpg" />
+    <None Include="Resources\watch.jpg" />
+    <None Include="Resources\type.jpg" />
+    <None Include="Resources\task.jpg" />
+    <None Include="Resources\software.jpg" />
+    <None Include="Resources\sleep.jpg" />
+    <None Include="Resources\shutdown.jpg" />
+    <None Include="Resources\service.jpg" />
+    <None Include="Resources\remote.jpg" />
+    <None Include="Resources\regedit.jpg" />
+    <None Include="Resources\recovery.jpg" />
+    <None Include="Resources\reboot.jpg" />
+    <None Include="Resources\reader.jpg" />
+    <None Include="Resources\player.jpg" />
+    <None Include="Resources\observe.jpg" />
+    <None Include="Resources\notepad.jpg" />
+    <None Include="Resources\notebook.jpg" />
+    <None Include="Resources\note.jpg" />
+    <None Include="Resources\network.jpg" />
+    <None Include="Resources\mspaint.jpg" />
+    <None Include="Resources\minimize2.jpg" />
+    <None Include="Resources\minimize.jpg" />
+    <None Include="Resources\min.jpg" />
+    <None Include="Resources\maximize2.jpg" />
+    <None Include="Resources\maximize.jpg" />
+    <None Include="Resources\manag.jpg" />
+    <None Include="Resources\logout.jpg" />
+    <None Include="Resources\lock.jpg" />
+    <None Include="Resources\localsafty.jpg" />
+    <None Include="Resources\labels.jpg" />
+    <None Include="Resources\ie.jpg" />
+    <None Include="Resources\I.jpg" />
+    <None Include="Resources\group.jpg" />
+    <None Include="Resources\firewall.jpg" />
+    <None Include="Resources\explorer.jpg" />
+    <None Include="Resources\exit.jpg" />
+    <None Include="Resources\dir.jpg" />
+    <None Include="Resources\control.jpg" />
+    <None Include="Resources\config.jpg" />
+    <None Include="Resources\cmd.jpg" />
+    <None Include="Resources\close2.jpg" />
+    <None Include="Resources\calc.jpg" />
+    <None Include="Resources\access.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <None Include="Resources\cmd.ico" />
+    <None Include="Resources\icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
