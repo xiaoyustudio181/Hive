@@ -204,3 +204,14 @@ G:\.NET项目\Hive_v171228.1936\Anniversaries\obj\Debug\Anniversaries.Properties
 G:\.NET项目\Hive_v171228.1936\Anniversaries\obj\Debug\Anniversaries.csproj.GenerateResource.Cache
 G:\.NET项目\Hive_v171228.1936\Anniversaries\obj\Debug\Anniversaries.exe
 G:\.NET项目\Hive_v171228.1936\Anniversaries\obj\Debug\Anniversaries.pdb
+G:\git_space\Hive\Anniversaries\bin\Debug\Anniversaries.exe
+G:\git_space\Hive\Anniversaries\bin\Debug\Anniversaries.pdb
+G:\git_space\Hive\Anniversaries\bin\Debug\MyFrame.dll
+G:\git_space\Hive\Anniversaries\bin\Debug\MyFrame.pdb
+G:\git_space\Hive\Anniversaries\obj\Debug\Anniversaries.csprojResolveAssemblyReference.cache
+G:\git_space\Hive\Anniversaries\obj\Debug\Anniversaries.Records.resources
+G:\git_space\Hive\Anniversaries\obj\Debug\Anniversaries.Login.resources
+G:\git_space\Hive\Anniversaries\obj\Debug\Anniversaries.Properties.Resources.resources
+G:\git_space\Hive\Anniversaries\obj\Debug\Anniversaries.csproj.GenerateResource.Cache
+G:\git_space\Hive\Anniversaries\obj\Debug\Anniversaries.exe
+G:\git_space\Hive\Anniversaries\obj\Debug\Anniversaries.pdb

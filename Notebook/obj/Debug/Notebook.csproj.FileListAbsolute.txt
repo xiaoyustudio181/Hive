@@ -939,3 +939,16 @@ G:\.NET项目\Hive_v171228.1936\Notebook\obj\Debug\Notebook.Properties.Resources
 G:\.NET项目\Hive_v171228.1936\Notebook\obj\Debug\Notebook.csproj.GenerateResource.Cache
 G:\.NET项目\Hive_v171228.1936\Notebook\obj\Debug\Notebook.exe
 G:\.NET项目\Hive_v171228.1936\Notebook\obj\Debug\Notebook.pdb
+G:\git_space\Hive\Notebook\bin\Debug\Notebook.exe.config
+G:\git_space\Hive\Notebook\bin\Debug\Notebook.exe
+G:\git_space\Hive\Notebook\bin\Debug\Notebook.pdb
+G:\git_space\Hive\Notebook\bin\Debug\MyFrame.dll
+G:\git_space\Hive\Notebook\bin\Debug\MyFrame.pdb
+G:\git_space\Hive\Notebook\obj\Debug\Notebook.csprojResolveAssemblyReference.cache
+G:\git_space\Hive\Notebook\obj\Debug\Notebook.Login.resources
+G:\git_space\Hive\Notebook\obj\Debug\Notebook.Groups.resources
+G:\git_space\Hive\Notebook\obj\Debug\Notebook.Notes.resources
+G:\git_space\Hive\Notebook\obj\Debug\Notebook.Properties.Resources.resources
+G:\git_space\Hive\Notebook\obj\Debug\Notebook.csproj.GenerateResource.Cache
+G:\git_space\Hive\Notebook\obj\Debug\Notebook.exe
+G:\git_space\Hive\Notebook\obj\Debug\Notebook.pdb

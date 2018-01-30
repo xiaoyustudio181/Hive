@@ -514,3 +514,14 @@ G:\.NET项目\Hive_v171130.1618\Reader\obj\Debug\Reader.Properties.Resources.res
 G:\.NET项目\Hive_v171130.1618\Reader\obj\Debug\Reader.csproj.GenerateResource.Cache
 G:\.NET项目\Hive_v171130.1618\Reader\obj\Debug\Reader.exe
 G:\.NET项目\Hive_v171130.1618\Reader\obj\Debug\Reader.pdb
+G:\git_space\Hive\Reader\bin\Debug\Reader.exe.config
+G:\git_space\Hive\Reader\bin\Debug\Reader.exe
+G:\git_space\Hive\Reader\bin\Debug\Reader.pdb
+G:\git_space\Hive\Reader\bin\Debug\MyFrame.dll
+G:\git_space\Hive\Reader\bin\Debug\MyFrame.pdb
+G:\git_space\Hive\Reader\obj\Debug\Reader.csprojResolveAssemblyReference.cache
+G:\git_space\Hive\Reader\obj\Debug\Reader.Reader.resources
+G:\git_space\Hive\Reader\obj\Debug\Reader.Properties.Resources.resources
+G:\git_space\Hive\Reader\obj\Debug\Reader.csproj.GenerateResource.Cache
+G:\git_space\Hive\Reader\obj\Debug\Reader.exe
+G:\git_space\Hive\Reader\obj\Debug\Reader.pdb

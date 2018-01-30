@@ -141,3 +141,14 @@ G:\.NET项目\Hive_v180123.2108\FastCmd\obj\Debug\FastCmd.Properties.Resources.r
 G:\.NET项目\Hive_v180123.2108\FastCmd\obj\Debug\FastCmd.csproj.GenerateResource.Cache
 G:\.NET项目\Hive_v180123.2108\FastCmd\obj\Debug\FastCmd.exe
 G:\.NET项目\Hive_v180123.2108\FastCmd\obj\Debug\FastCmd.pdb
+G:\git_space\Hive\FastCmd\bin\Debug\FastCmd.exe.config
+G:\git_space\Hive\FastCmd\bin\Debug\FastCmd.exe
+G:\git_space\Hive\FastCmd\bin\Debug\FastCmd.pdb
+G:\git_space\Hive\FastCmd\bin\Debug\MyFrame.dll
+G:\git_space\Hive\FastCmd\bin\Debug\MyFrame.pdb
+G:\git_space\Hive\FastCmd\obj\Debug\FastCmd.csprojResolveAssemblyReference.cache
+G:\git_space\Hive\FastCmd\obj\Debug\FastCmd.Main.resources
+G:\git_space\Hive\FastCmd\obj\Debug\FastCmd.Properties.Resources.resources
+G:\git_space\Hive\FastCmd\obj\Debug\FastCmd.csproj.GenerateResource.Cache
+G:\git_space\Hive\FastCmd\obj\Debug\FastCmd.exe
+G:\git_space\Hive\FastCmd\obj\Debug\FastCmd.pdb

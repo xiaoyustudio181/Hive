@@ -663,3 +663,16 @@ G:\.NET项目\Hive_v171228.1936\Diary\obj\Debug\Diary.Records.resources
 G:\.NET项目\Hive_v171228.1936\Diary\obj\Debug\Diary.csproj.GenerateResource.Cache
 G:\.NET项目\Hive_v171228.1936\Diary\obj\Debug\Diary.exe
 G:\.NET项目\Hive_v171228.1936\Diary\obj\Debug\Diary.pdb
+G:\git_space\Hive\Diary\bin\Debug\Diary.exe
+G:\git_space\Hive\Diary\bin\Debug\Diary.pdb
+G:\git_space\Hive\Diary\bin\Debug\MyFrame.dll
+G:\git_space\Hive\Diary\bin\Debug\MyFrame.pdb
+G:\git_space\Hive\Diary\obj\Debug\Diary.csprojResolveAssemblyReference.cache
+G:\git_space\Hive\Diary\obj\Debug\Diary.Groups.resources
+G:\git_space\Hive\Diary\obj\Debug\Diary.Login.resources
+G:\git_space\Hive\Diary\obj\Debug\Diary.PageConfig.resources
+G:\git_space\Hive\Diary\obj\Debug\Diary.Properties.Resources.resources
+G:\git_space\Hive\Diary\obj\Debug\Diary.Records.resources
+G:\git_space\Hive\Diary\obj\Debug\Diary.csproj.GenerateResource.Cache
+G:\git_space\Hive\Diary\obj\Debug\Diary.exe
+G:\git_space\Hive\Diary\obj\Debug\Diary.pdb

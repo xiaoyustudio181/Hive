@@ -66,6 +66,11 @@
             this.盲打机ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.阅读器ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.快速命令ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.数据应用ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.笔记本ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.日记本ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.标签簿ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.纪念簿ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.其他操作ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.软件维护ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.配置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -123,11 +128,6 @@
             this.全部最小化ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.全部关闭ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.数据应用ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.笔记本ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.日记本ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.标签簿ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.纪念簿ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -399,34 +399,34 @@
             this.闹钟ToolStripMenuItem});
             this.电子表ToolStripMenuItem.Image = global::Hive.Properties.Resources.watch;
             this.电子表ToolStripMenuItem.Name = "电子表ToolStripMenuItem";
-            this.电子表ToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
+            this.电子表ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
             this.电子表ToolStripMenuItem.Text = "电子表";
             // 
             // 时钟ToolStripMenuItem
             // 
             this.时钟ToolStripMenuItem.Name = "时钟ToolStripMenuItem";
-            this.时钟ToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
+            this.时钟ToolStripMenuItem.Size = new System.Drawing.Size(112, 26);
             this.时钟ToolStripMenuItem.Text = "时钟";
             this.时钟ToolStripMenuItem.Click += new System.EventHandler(this.时钟ToolStripMenuItem_Click);
             // 
             // 秒表ToolStripMenuItem
             // 
             this.秒表ToolStripMenuItem.Name = "秒表ToolStripMenuItem";
-            this.秒表ToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
+            this.秒表ToolStripMenuItem.Size = new System.Drawing.Size(112, 26);
             this.秒表ToolStripMenuItem.Text = "秒表";
             this.秒表ToolStripMenuItem.Click += new System.EventHandler(this.秒表ToolStripMenuItem_Click);
             // 
             // 定时ToolStripMenuItem
             // 
             this.定时ToolStripMenuItem.Name = "定时ToolStripMenuItem";
-            this.定时ToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
+            this.定时ToolStripMenuItem.Size = new System.Drawing.Size(112, 26);
             this.定时ToolStripMenuItem.Text = "定时";
             this.定时ToolStripMenuItem.Click += new System.EventHandler(this.定时ToolStripMenuItem_Click);
             // 
             // 闹钟ToolStripMenuItem
             // 
             this.闹钟ToolStripMenuItem.Name = "闹钟ToolStripMenuItem";
-            this.闹钟ToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
+            this.闹钟ToolStripMenuItem.Size = new System.Drawing.Size(112, 26);
             this.闹钟ToolStripMenuItem.Text = "闹钟";
             this.闹钟ToolStripMenuItem.Click += new System.EventHandler(this.闹钟ToolStripMenuItem_Click);
             // 
@@ -434,7 +434,7 @@
             // 
             this.盲打机ToolStripMenuItem.Image = global::Hive.Properties.Resources.type;
             this.盲打机ToolStripMenuItem.Name = "盲打机ToolStripMenuItem";
-            this.盲打机ToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
+            this.盲打机ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
             this.盲打机ToolStripMenuItem.Text = "盲打机";
             this.盲打机ToolStripMenuItem.Click += new System.EventHandler(this.盲打机ToolStripMenuItem_Click);
             // 
@@ -442,7 +442,7 @@
             // 
             this.阅读器ToolStripMenuItem.Image = global::Hive.Properties.Resources.reader;
             this.阅读器ToolStripMenuItem.Name = "阅读器ToolStripMenuItem";
-            this.阅读器ToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
+            this.阅读器ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
             this.阅读器ToolStripMenuItem.Text = "阅读器";
             this.阅读器ToolStripMenuItem.Click += new System.EventHandler(this.阅读器ToolStripMenuItem_Click);
             // 
@@ -450,9 +450,52 @@
             // 
             this.快速命令ToolStripMenuItem.Image = global::Hive.Properties.Resources.cmd1;
             this.快速命令ToolStripMenuItem.Name = "快速命令ToolStripMenuItem";
-            this.快速命令ToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
+            this.快速命令ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
             this.快速命令ToolStripMenuItem.Text = "快速命令";
             this.快速命令ToolStripMenuItem.Click += new System.EventHandler(this.快速命令ToolStripMenuItem_Click);
+            // 
+            // 数据应用ToolStripMenuItem
+            // 
+            this.数据应用ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.笔记本ToolStripMenuItem1,
+            this.日记本ToolStripMenuItem1,
+            this.标签簿ToolStripMenuItem1,
+            this.纪念簿ToolStripMenuItem1});
+            this.数据应用ToolStripMenuItem.Name = "数据应用ToolStripMenuItem";
+            this.数据应用ToolStripMenuItem.Size = new System.Drawing.Size(86, 25);
+            this.数据应用ToolStripMenuItem.Text = "数据应用";
+            // 
+            // 笔记本ToolStripMenuItem1
+            // 
+            this.笔记本ToolStripMenuItem1.Image = global::Hive.Properties.Resources.notebook;
+            this.笔记本ToolStripMenuItem1.Name = "笔记本ToolStripMenuItem1";
+            this.笔记本ToolStripMenuItem1.Size = new System.Drawing.Size(128, 26);
+            this.笔记本ToolStripMenuItem1.Text = "笔记本";
+            this.笔记本ToolStripMenuItem1.Click += new System.EventHandler(this.笔记本ToolStripMenuItem_Click);
+            // 
+            // 日记本ToolStripMenuItem1
+            // 
+            this.日记本ToolStripMenuItem1.Image = global::Hive.Properties.Resources.observe;
+            this.日记本ToolStripMenuItem1.Name = "日记本ToolStripMenuItem1";
+            this.日记本ToolStripMenuItem1.Size = new System.Drawing.Size(128, 26);
+            this.日记本ToolStripMenuItem1.Text = "日记本";
+            this.日记本ToolStripMenuItem1.Click += new System.EventHandler(this.日记本ToolStripMenuItem_Click);
+            // 
+            // 标签簿ToolStripMenuItem1
+            // 
+            this.标签簿ToolStripMenuItem1.Image = global::Hive.Properties.Resources.labels;
+            this.标签簿ToolStripMenuItem1.Name = "标签簿ToolStripMenuItem1";
+            this.标签簿ToolStripMenuItem1.Size = new System.Drawing.Size(128, 26);
+            this.标签簿ToolStripMenuItem1.Text = "标签簿";
+            this.标签簿ToolStripMenuItem1.Click += new System.EventHandler(this.标签簿ToolStripMenuItem_Click);
+            // 
+            // 纪念簿ToolStripMenuItem1
+            // 
+            this.纪念簿ToolStripMenuItem1.Image = global::Hive.Properties.Resources.icon;
+            this.纪念簿ToolStripMenuItem1.Name = "纪念簿ToolStripMenuItem1";
+            this.纪念簿ToolStripMenuItem1.Size = new System.Drawing.Size(128, 26);
+            this.纪念簿ToolStripMenuItem1.Text = "纪念簿";
+            this.纪念簿ToolStripMenuItem1.Click += new System.EventHandler(this.纪念簿ToolStripMenuItem_Click);
             // 
             // 其他操作ToolStripMenuItem
             // 
@@ -1005,49 +1048,6 @@
             this.timer1.Enabled = true;
             this.timer1.Interval = 1;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // 数据应用ToolStripMenuItem
-            // 
-            this.数据应用ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.笔记本ToolStripMenuItem1,
-            this.日记本ToolStripMenuItem1,
-            this.标签簿ToolStripMenuItem1,
-            this.纪念簿ToolStripMenuItem1});
-            this.数据应用ToolStripMenuItem.Name = "数据应用ToolStripMenuItem";
-            this.数据应用ToolStripMenuItem.Size = new System.Drawing.Size(86, 25);
-            this.数据应用ToolStripMenuItem.Text = "数据应用";
-            // 
-            // 笔记本ToolStripMenuItem1
-            // 
-            this.笔记本ToolStripMenuItem1.Image = global::Hive.Properties.Resources.notebook;
-            this.笔记本ToolStripMenuItem1.Name = "笔记本ToolStripMenuItem1";
-            this.笔记本ToolStripMenuItem1.Size = new System.Drawing.Size(152, 26);
-            this.笔记本ToolStripMenuItem1.Text = "笔记本";
-            this.笔记本ToolStripMenuItem1.Click += new System.EventHandler(this.笔记本ToolStripMenuItem_Click);
-            // 
-            // 日记本ToolStripMenuItem1
-            // 
-            this.日记本ToolStripMenuItem1.Image = global::Hive.Properties.Resources.observe;
-            this.日记本ToolStripMenuItem1.Name = "日记本ToolStripMenuItem1";
-            this.日记本ToolStripMenuItem1.Size = new System.Drawing.Size(152, 26);
-            this.日记本ToolStripMenuItem1.Text = "日记本";
-            this.日记本ToolStripMenuItem1.Click += new System.EventHandler(this.日记本ToolStripMenuItem_Click);
-            // 
-            // 标签簿ToolStripMenuItem1
-            // 
-            this.标签簿ToolStripMenuItem1.Image = global::Hive.Properties.Resources.labels;
-            this.标签簿ToolStripMenuItem1.Name = "标签簿ToolStripMenuItem1";
-            this.标签簿ToolStripMenuItem1.Size = new System.Drawing.Size(152, 26);
-            this.标签簿ToolStripMenuItem1.Text = "标签簿";
-            this.标签簿ToolStripMenuItem1.Click += new System.EventHandler(this.标签簿ToolStripMenuItem_Click);
-            // 
-            // 纪念簿ToolStripMenuItem1
-            // 
-            this.纪念簿ToolStripMenuItem1.Image = global::Hive.Properties.Resources.icon;
-            this.纪念簿ToolStripMenuItem1.Name = "纪念簿ToolStripMenuItem1";
-            this.纪念簿ToolStripMenuItem1.Size = new System.Drawing.Size(152, 26);
-            this.纪念簿ToolStripMenuItem1.Text = "纪念簿";
-            this.纪念簿ToolStripMenuItem1.Click += new System.EventHandler(this.纪念簿ToolStripMenuItem_Click);
             // 
             // CentralControl
             // 

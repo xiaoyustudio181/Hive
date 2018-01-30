@@ -404,3 +404,16 @@ G:\.NET项目\Hive_v171117.1006\ElectronicWatch\obj\Debug\ElectronicWatch.Second
 G:\.NET项目\Hive_v171117.1006\ElectronicWatch\obj\Debug\ElectronicWatch.csproj.GenerateResource.Cache
 G:\.NET项目\Hive_v171117.1006\ElectronicWatch\obj\Debug\ElectronicWatch.exe
 G:\.NET项目\Hive_v171117.1006\ElectronicWatch\obj\Debug\ElectronicWatch.pdb
+G:\git_space\Hive\ElectronicWatch\bin\Debug\ElectronicWatch.exe.config
+G:\git_space\Hive\ElectronicWatch\bin\Debug\ElectronicWatch.exe
+G:\git_space\Hive\ElectronicWatch\bin\Debug\ElectronicWatch.pdb
+G:\git_space\Hive\ElectronicWatch\obj\Debug\ElectronicWatch.csprojResolveAssemblyReference.cache
+G:\git_space\Hive\ElectronicWatch\obj\Debug\ElectronicWatch.Alarm.resources
+G:\git_space\Hive\ElectronicWatch\obj\Debug\ElectronicWatch.CountDown.resources
+G:\git_space\Hive\ElectronicWatch\obj\Debug\ElectronicWatch.Main.resources
+G:\git_space\Hive\ElectronicWatch\obj\Debug\ElectronicWatch.Now.resources
+G:\git_space\Hive\ElectronicWatch\obj\Debug\ElectronicWatch.Properties.Resources.resources
+G:\git_space\Hive\ElectronicWatch\obj\Debug\ElectronicWatch.Seconds.resources
+G:\git_space\Hive\ElectronicWatch\obj\Debug\ElectronicWatch.csproj.GenerateResource.Cache
+G:\git_space\Hive\ElectronicWatch\obj\Debug\ElectronicWatch.exe
+G:\git_space\Hive\ElectronicWatch\obj\Debug\ElectronicWatch.pdb

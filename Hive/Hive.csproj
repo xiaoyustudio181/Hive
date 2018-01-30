@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <ApplicationIcon>icon%286%29.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -193,6 +193,7 @@
     <None Include="Resources\access.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="icon%286%29.ico" />
     <Content Include="icon.ico" />
     <None Include="Resources\cmd.ico" />
     <None Include="Resources\icon.ico" />
