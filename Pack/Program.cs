@@ -42,6 +42,27 @@ namespace Pack
                     file.Name == "Manual.txt")
                     file.CopyTo(NewBackupPath + @"\" + file.Name);//复制到新的Backup目录
             }
+            //======================================
+            foreach (FileInfo file in new DirectoryInfo(INI.Root).GetFiles())//打包完成后，尽量清除垃圾
+            {
+                if (!file.Name.StartsWith("v")&&
+                    file.Name != "Pack.exe" &&
+                    file.Name != "Pack.pdb" &&
+                    file.Name != "Pack.vshost.exe" &&
+                    file.Name!="MyFrame.dll"&&
+                    file.Name!="Hive.vshost.exe"&&
+                    file.Name!="MyFrame.pdb")
+                {
+                    try
+                    {
+                        file.Delete();
+                    }
+                    catch(Exception ex)
+                    {
+                        MyTextFile.DoDefaultRecord(ex.Message);
+                    }
+                }
+            }
         }
     }
 }

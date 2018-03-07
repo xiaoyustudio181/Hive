@@ -1,0 +1,5 @@
+ipconfig
+ipconfig -all
+ping 
+ping baidu.com
+netstat -ano

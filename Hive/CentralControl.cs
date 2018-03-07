@@ -14,6 +14,7 @@ using Labels;
 using Notebook;
 using Diary;
 using Pack;
+using System.IO;
 namespace Hive
 {
     public partial class CentralControl : Form
@@ -26,6 +27,7 @@ namespace Hive
             InitializeComponent();
             if (Global.con == null) TouristMode();//游客模式
             else OpenWindow(ref LabelsForm, new Labels.Labels());
+            clearGarbage();
         }
         void TouristMode()//游客模式
         {
@@ -458,6 +460,16 @@ namespace Hive
         {
             toolStripStatusLabel2.Text = MyTime.GetNowDateTimeInChinese();
         }
-
+        void clearGarbage()//清理根目录下的垃圾
+        {
+            foreach (FileInfo file in new DirectoryInfo(INI.Root).GetFiles())
+            {
+                if (file.Name.StartsWith("hc_")||
+                    file.Name == "debug.log")
+                {
+                    file.Delete();
+                }
+            }
+        }
     }
 }

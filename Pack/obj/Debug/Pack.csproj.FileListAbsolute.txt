@@ -201,3 +201,10 @@ G:\.NET项目\Hive_v171130.1618\Pack\bin\Debug\MyFrame.pdb
 G:\.NET项目\Hive_v171130.1618\Pack\obj\Debug\Pack.csprojResolveAssemblyReference.cache
 G:\.NET项目\Hive_v171130.1618\Pack\obj\Debug\Pack.exe
 G:\.NET项目\Hive_v171130.1618\Pack\obj\Debug\Pack.pdb
+D:\xiaoyu\git_space\Hive\Pack\bin\Debug\Pack.exe
+D:\xiaoyu\git_space\Hive\Pack\bin\Debug\Pack.pdb
+D:\xiaoyu\git_space\Hive\Pack\bin\Debug\MyFrame.dll
+D:\xiaoyu\git_space\Hive\Pack\bin\Debug\MyFrame.pdb
+D:\xiaoyu\git_space\Hive\Pack\obj\Debug\Pack.csprojResolveAssemblyReference.cache
+D:\xiaoyu\git_space\Hive\Pack\obj\Debug\Pack.exe
+D:\xiaoyu\git_space\Hive\Pack\obj\Debug\Pack.pdb
