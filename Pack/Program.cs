@@ -46,6 +46,7 @@ namespace Pack
             foreach (FileInfo file in new DirectoryInfo(INI.Root).GetFiles())//打包完成后，尽量清除垃圾
             {
                 if (!file.Name.StartsWith("v")&&
+                    file.Name != "NAMEIT.mdb"&&
                     file.Name != "Pack.exe" &&
                     file.Name != "Pack.pdb" &&
                     file.Name != "Pack.vshost.exe" &&

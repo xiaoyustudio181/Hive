@@ -64,7 +64,7 @@ namespace Labels
             button1.Text = "确认新增";
             textBox1.Text = "";
             textBox2.Text = "";
-            numericUpDown1.Value = 0;
+            numericUpDown1.Value = 50;
             CBB.SelectedValue = GroupID;
         }
         private void button4_Click(object sender, EventArgs e)//准备新增

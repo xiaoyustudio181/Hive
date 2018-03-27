@@ -208,3 +208,10 @@ D:\xiaoyu\git_space\Hive\Pack\bin\Debug\MyFrame.pdb
 D:\xiaoyu\git_space\Hive\Pack\obj\Debug\Pack.csprojResolveAssemblyReference.cache
 D:\xiaoyu\git_space\Hive\Pack\obj\Debug\Pack.exe
 D:\xiaoyu\git_space\Hive\Pack\obj\Debug\Pack.pdb
+G:\git_space\Hive\Pack\bin\Debug\Pack.exe
+G:\git_space\Hive\Pack\bin\Debug\Pack.pdb
+G:\git_space\Hive\Pack\bin\Debug\MyFrame.dll
+G:\git_space\Hive\Pack\bin\Debug\MyFrame.pdb
+G:\git_space\Hive\Pack\obj\Debug\Pack.csprojResolveAssemblyReference.cache
+G:\git_space\Hive\Pack\obj\Debug\Pack.exe
+G:\git_space\Hive\Pack\obj\Debug\Pack.pdb

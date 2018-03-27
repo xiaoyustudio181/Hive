@@ -38,7 +38,7 @@ namespace Labels
             Operation = true;
             button1.Text = "确认新增";
             textBox1.Text = "";
-            numericUpDown1.Value = 0;
+            numericUpDown1.Value = 50;
             LB.ClearSelected();
             LB.Focus();
         }
