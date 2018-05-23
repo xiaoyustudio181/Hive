@@ -65,12 +65,12 @@
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Font = new System.Drawing.Font("Cambria", 42F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Maroon;
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(642, 148);
             this.label1.TabIndex = 0;
-            this.label1.Text = "WinHelper";
+            this.label1.Text = "Windows Helper";
             this.label1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // tableLayoutPanel2
@@ -106,7 +106,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(279, 43);
             this.button2.TabIndex = 2;
-            this.button2.Text = "Tourist Mode(&2)";
+            this.button2.Text = "游客模式(&2)";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -116,7 +116,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(279, 43);
             this.button1.TabIndex = 1;
-            this.button1.Text = "Enter(&1)";
+            this.button1.Text = "数据模式(&1)";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -143,11 +143,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(27, 31);
+            this.label2.Location = new System.Drawing.Point(29, 31);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(118, 21);
+            this.label2.Size = new System.Drawing.Size(90, 21);
             this.label2.TabIndex = 0;
-            this.label2.Text = "DB Password :";
+            this.label2.Text = "数据库密码";
             // 
             // Login
             // 
