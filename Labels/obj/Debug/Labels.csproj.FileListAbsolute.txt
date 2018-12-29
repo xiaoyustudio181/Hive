@@ -732,9 +732,9 @@ G:\.NET项目\Hive_v171228.1936\Labels\obj\Debug\Labels.Properties.Resources.res
 G:\.NET项目\Hive_v171228.1936\Labels\obj\Debug\Labels.csproj.GenerateResource.Cache
 G:\.NET项目\Hive_v171228.1936\Labels\obj\Debug\Labels.exe
 G:\.NET项目\Hive_v171228.1936\Labels\obj\Debug\Labels.pdb
+G:\git_space\Hive\Labels\bin\Debug\MyFrame.dll
 G:\git_space\Hive\Labels\bin\Debug\Labels.exe
 G:\git_space\Hive\Labels\bin\Debug\Labels.pdb
-G:\git_space\Hive\Labels\bin\Debug\MyFrame.dll
 G:\git_space\Hive\Labels\bin\Debug\MyFrame.pdb
 G:\git_space\Hive\Labels\obj\Debug\Labels.csprojResolveAssemblyReference.cache
 G:\git_space\Hive\Labels\obj\Debug\Labels.Groups.resources

@@ -388,3 +388,7 @@ G:\.NET项目\Hive_v171130.1618\MyFrame\bin\Debug\MyFrame.pdb
 G:\.NET项目\Hive_v171130.1618\MyFrame\obj\Debug\MyFrame.csprojResolveAssemblyReference.cache
 G:\.NET项目\Hive_v171130.1618\MyFrame\obj\Debug\MyFrame.dll
 G:\.NET项目\Hive_v171130.1618\MyFrame\obj\Debug\MyFrame.pdb
+G:\git_space\Hive\MyFrame\bin\Debug\MyFrame.dll
+G:\git_space\Hive\MyFrame\bin\Debug\MyFrame.pdb
+G:\git_space\Hive\MyFrame\obj\Debug\MyFrame.dll
+G:\git_space\Hive\MyFrame\obj\Debug\MyFrame.pdb

@@ -308,7 +308,6 @@ G:\.NET项目\Hive_v171117.1006\TouchTypist\obj\Debug\TouchTypist.pdb
 G:\git_space\Hive\TouchTypist\bin\Debug\TouchTypist.exe.config
 G:\git_space\Hive\TouchTypist\bin\Debug\TouchTypist.exe
 G:\git_space\Hive\TouchTypist\bin\Debug\TouchTypist.pdb
-G:\git_space\Hive\TouchTypist\obj\Debug\TouchTypist.csprojResolveAssemblyReference.cache
 G:\git_space\Hive\TouchTypist\obj\Debug\TouchTypist.Game.resources
 G:\git_space\Hive\TouchTypist\obj\Debug\TouchTypist.Properties.Resources.resources
 G:\git_space\Hive\TouchTypist\obj\Debug\TouchTypist.csproj.GenerateResource.Cache
