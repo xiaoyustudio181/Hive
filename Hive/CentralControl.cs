@@ -20,7 +20,7 @@ namespace Hive
     public partial class CentralControl : Form
     {
         Form LoginForm;
-        string About = "软件名称：WinHelper\n开发人：小宇\n开发语言：Visual C#\n开发工具：Visual Studio 2013\n框架版本：.NET Framework 2.0\n邮箱：xiaoyustudio@foxmail.com";
+        string About = "软件名称：WinHelper\n开发人：小宇\n开发语言：Visual C#\n开发工具：Visual Studio 2013\n框架版本：.NET Framework 2.0\n邮箱：studio181@sina.com";
         public CentralControl(Form LoginForm)
         {
             this.LoginForm = LoginForm;
